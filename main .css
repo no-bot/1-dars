@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 45px;
+    box-sizing: border-box;
+border: 2px solid #ded;
+background: rgb(255, 255, 255);
+}
+.container{
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__btn{
+display: flex;
+align-items: center;
+gap: 14px;
+color: rgb(66, 66, 66);
+font-family: "Inter";
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+}
+.header__btn::before{
+    background-image: url("./images/Vector\ \(7\).png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    content: "";
+    display: block;
+}
+.hero__text{
+color: rgb(240, 64, 15);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+padding-top: 67px;
+padding-right: 56px;
+}
+.hero__text::after{
+    background-image: url("images/Vector\ \(8\).png");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 23px;
+    content: "";
+    display: block;
+}
+.hero__title{
+color: rgb(14, 13, 93);
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+margin-top: 133px;
+text-align: center;
+}
+.buttons{
+    border-radius: 20px;
+margin-top: 30px;
+padding: 8px 11px;
+background: rgb(255, 255, 255);
+}
+.oquvchi{
+width: 255px;
+padding: 9px 0;
+color: rgb(117, 117, 117);
+font-family: "Inter";
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+border-radius: 15px;
+border: none;
+background-color: transparent;
+border-radius: 20px;
+
+background: rgb(245, 245, 245);
+}
+.hero__wrapper{
+    width: 680px;
+    height: 786px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.hero__header{
+    display: flex;
+    justify-content: space-between;
+}
+.gojo{
+    padding-top: 60px;
+    padding-left: 56px;
+}
+.ota{
+    width: 255px;
+    padding: 9px 0;
+    color: rgb(117, 117, 117);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 0 auto;
+background: rgb(245, 245, 245);
+margin-left: 115px;
+    }
+    .popoq{
+        
+    width: 533px;
+    height: 70px;
+    padding: 9px 0;
+    color: rgb(117, 117, 117);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 70x;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 0 auto;
+background: rgb(245, 245, 245);
+box-sizing: border-box;
+border: 1px solid rgba(117, 117, 117, 0.19);
+border-radius: 20px;
+
+background: rgb(250, 250, 250);
+margin: 0 auto;
+margin-top: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+    }
+    .opop{
+        margin-left: 370px;
+        display: flex;
+        align-items: center;
+    }
+    .yupi{
+        color: rgba(0, 0, 0, 0.64);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+width: 247px;
+margin: 0 auto;
+margin-top: 20px;
+    }
+.podverdit{
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+background: rgb(246, 158, 134);
+color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+text-align: center;
+align-items: center;
+}
